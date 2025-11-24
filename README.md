@@ -52,7 +52,7 @@ Use your AWS credentials.
 Attach required policies including `AmazonEKS_CNI_Policy`.
 
 <p align="center">
-  <img src="./Project documentation/ekscluster_role.png" width="600">
+  <img src="./Project documentation/ekscluster_role.jpg" width="600">
 </p>
 
 #### 3. Create Node Role - AmazonEKSNodeRole
@@ -64,7 +64,7 @@ Attach:
 * AmazonEC2ContainerRegistryReadOnly
 
 <p align="center">
-  <img src="./Project documentation/node_iam.png" width="600">
+  <img src="./Project documentation/node_iam.jpg" width="600">
 </p>
 
 #### 4. Create EKS Cluster
@@ -91,7 +91,7 @@ Ensure ports:
 #### 7. Enable EBS CSI Addon
 
 <p align="center">
-  <img src="./Project documentation/ebs_addon.png" width="600">
+  <img src="./Project documentation/ebs_addon.jpg" width="600">
 </p>
 
 ---
